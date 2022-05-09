@@ -10,7 +10,9 @@ module.exports = {
     },
     extend: {
       colors: {
-        cyan: '#9cdbff'
+        cyan: '#9cdbff',
+        yellow: '#feda6a',
+        'grey-matte': '#393f4d',
       },
       margin: {
         '96': '24rem',

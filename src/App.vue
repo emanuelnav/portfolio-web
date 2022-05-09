@@ -1,28 +1,35 @@
 <template>
-  <main>
-    <about-me/>
+  <main class="app">
+    <nabvar/>
+    <home/>
+    <x-footer/>
   </main>
 </template>
 
 <script>
-import AboutMe from './components/AboutMe.vue'
+import Home from './views/Home.vue';
+import Nabvar from './components/Navbar.vue';
+import xFooter from './components/xFooter.vue';
 
 export default {
   name: 'App',
   components: {
-    AboutMe,
+    Home,
+    Nabvar,
+    xFooter,
   }
 
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  .app {
+    background-color: #393f4d;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1 {
+    color: #feda6a;
+  }
 </style>
