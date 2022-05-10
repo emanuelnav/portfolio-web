@@ -8,7 +8,7 @@
         <h2 class="uppercase text-3xl font-bold text-center lg:text-left">Full Stack Developer</h2>
         <h2 class="uppercase text-2xl font-bold text-yellow my-2 text-center lg:text-left">Emanuel Navarro</h2>
         <p class="text-justify text-lg">Hi I'm Emanuel, a Web developer that is passionate with technology and to learning new things. I have experience making responsive web applications and working in team.</p>
-        <p class="text-justify text-lg">In my free time i love to play videogames (mostly esports) and sports like padel or tennis &#x1F3BE;.</p>
+        <p class="text-justify text-lg">In my free time I love to play videogames (mostly esports) and sports like padel or tennis &#x1F3BE;.</p>
         <div class="flex justify-center lg:justify-start space-x-4 mt-1">
           <a href="https://github.com/emanuelnav" target="_blank" class="text-4xl btn-default"><i class="bi bi-github"></i></a>
           <a href="https://www.linkedin.com/in/emanuelnav/" target="_blank" class="text-4xl btn-default"><i class="bi bi-linkedin"></i></a>
