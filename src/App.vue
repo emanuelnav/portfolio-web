@@ -29,6 +29,15 @@ export default {
     font-family: 'Roboto', sans-serif;
   }
 
+  .btn-default {
+    transform: scale(1);
+    transition: .4s ease;
+  }
+
+  .btn-default:hover {
+    transform: scale(1.2);
+  }
+
   h1 {
     color: #feda6a;
   }

@@ -1,5 +1,5 @@
 <template>
   <footer>
-    <p>Made with &#128155; by EN</p>
+    <p class="text-center">Made by Emanuel Navarro &#x1F47E;</p>
   </footer>
 </template>

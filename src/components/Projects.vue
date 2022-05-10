@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1 class="uppercase text-2xl text-center mt-4">Projects</h1>
-    <div class="mt-6 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
+    <h1 class="uppercase text-3xl font-bold text-center mt-20">&lt;Projects /&gt;</h1>
+    <div class="mt-4 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
       <item v-for="project in projects" :key="project.title"
             :title="project.title"
             :image="project.image"
@@ -25,7 +25,15 @@ export default {
     return {
       projects: [
         {
-          title: 'ToDo App',
+          title: 'Rent App',
+          image: 'rentapp.png',
+          description: 'Rental manager made with Django.',
+          skills: ['Django', 'Python', 'SQLite', 'Bootstrap'],
+          repoUrl: 'https://github.com/emanuelnav/ministerio-quiz',
+          demoUrl: '',
+        },
+        {
+          title: 'TODO App',
           image: 'todoapp.png',
           description: 'A task manager web app made with React.',
           skills: ['React', 'JS', 'HTML', 'CSS'],
@@ -35,16 +43,8 @@ export default {
         {
           title: 'Ministerio Quiz',
           image: 'quiz.png',
-          description: 'An interactive quiz of how much you know about government projects.',
-          skills: ['VueJS', 'JS', 'TailwindCSS', 'Animate.css'],
-          repoUrl: 'https://github.com/emanuelnav/ministerio-quiz',
-          demoUrl: 'https://ministerio-quiz.netlify.app/',
-        },
-        {
-          title: 'Rent App',
-          image: 'rentapp.png',
-          description: 'A webapp to take rent control.',
-          skills: ['Django', 'Python', 'SQLite', 'Bootstrap'],
+          description: 'Interactive quiz with government projects questions.',
+          skills: ['VueJS', 'JS', 'TailwindCSS'],
           repoUrl: 'https://github.com/emanuelnav/ministerio-quiz',
           demoUrl: 'https://ministerio-quiz.netlify.app/',
         }

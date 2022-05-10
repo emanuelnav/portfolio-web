@@ -13,6 +13,8 @@ module.exports = {
         cyan: '#9cdbff',
         yellow: '#feda6a',
         'grey-matte': '#393f4d',
+        'silver-fox': '#d4d4dc',
+        'dark-slate': '#1d1e22'
       },
       margin: {
         '96': '24rem',
