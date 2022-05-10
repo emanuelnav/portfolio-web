@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="uppercase text-3xl font-bold text-center mt-20">&lt;Projects /&gt;</h1>
+    <h1 class="uppercase text-3xl font-bold text-center mt-20">&lt;Some of my Projects /&gt;</h1>
     <div class="mt-4 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
       <item v-for="project in projects" :key="project.title"
             :title="project.title"
