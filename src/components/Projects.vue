@@ -29,8 +29,8 @@ export default {
           image: 'rentapp.png',
           description: 'Rental manager made with Django.',
           skills: ['Django', 'Python', 'SQLite', 'Bootstrap'],
-          repoUrl: 'https://github.com/emanuelnav/ministerio-quiz',
-          demoUrl: '',
+          repoUrl: 'https://github.com/emanuelnav/rentControlApp',
+          demoUrl: 'https://github.com/emanuelnav/rentControlApp',
         },
         {
           title: 'TODO App',
