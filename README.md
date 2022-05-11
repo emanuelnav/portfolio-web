@@ -1,24 +1,17 @@
-# my-portfolio
+<h2 align="center">
+  Portfolio Web :briefcase:
+  <a href="https://www.emanuelnavarro/" target="_blank">emanuelnavarro.com</a>
+</h2>
 
-## Project setup
-```
-npm install
-```
+## About the project
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+My personal portfolio <a href="https://www.emanuelnavarro/" target="_blank">emanuelnavarro.com</a> which features some of my github projects as well as my resume and technical skills.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+This project was built using these technologies:
 
-### Lints and fixes files
-```
-npm run lint
-```
+- VueJS
+- Javascript
+- CSS3
+- TailwindCSS
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+---
