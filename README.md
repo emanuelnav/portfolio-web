@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Web :briefcase:
+  Portfolio Web :briefcase:<br/>
   <a href="https://www.emanuelnavarro/" target="_blank">emanuelnavarro.com</a>
 </h2>
 
