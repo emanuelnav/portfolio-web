@@ -8,7 +8,6 @@
       </div>
       <div class="flex flex-col items-center justify-center mt-4 space-y-2">
         <a href="mailto:emanuelnavarro.dev@gmail.com" class="btn-default rounded-lg p-2 bg-gray-200 text-black"><i class="bi bi-envelope"></i> emanuelnavarro.dev@gmail.com</a>
-        <a href="https://www.canva.com/design/DAFAQVk-kEk/view" target="_blank" class="btn-default rounded-lg p-2 bg-gray-200 text-black"><i class="bi bi-filetype-pdf"></i> Resume</a>
       </div>
     </div>
   </div>
